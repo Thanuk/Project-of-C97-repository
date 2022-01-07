@@ -1,0 +1,60 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+.header
+{
+	color:  blue;;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px; 
+}
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+body
+{
+	background-image: url("image.jfif");
+    background-size: 80%;
+    background-position: center;
+}
+
+	.login_div1
+	{
+		background-color: cadetblue;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(36, 159, 197, 0.8);
+}
